@@ -7,7 +7,7 @@ def test_all_algorithms(sample_size: int = 100):
     """
 
     # tested algorithms
-    algorithms = [ bubble_sort, insertion_sort, merge_sort, quick_sort ]
+    algorithms = [ bubble_sort, insertion_sort, selection_sort, merge_sort, quick_sort ]
 
     # expected result - sorting is ok if the final result is this everytime
     expected_result = [*range(sample_size)]
