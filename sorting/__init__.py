@@ -1,9 +1,4 @@
-__version__ = '0.1.0'
-
-from .bubble_sort import bubble_sort
-from .insertion_sort import insertion_sort
-from .selection_sort import selection_sort
-from .merge_sort import merge_sort
-from .quick_sort import quick_sort
+__author__ = 'c-sant'
 
 from .test import test_sort
+from .algorithms import bubble_sort, insertion_sort, selection_sort, merge_sort, quick_sort

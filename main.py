@@ -1,4 +1,5 @@
 from sorting import *
+from sorting.view import *
 
 def test_all_algorithms(sample_size: int = 100):
     """
@@ -39,5 +40,35 @@ def test_all_algorithms(sample_size: int = 100):
         else:
             break
 
+def main():
+    while True:
+        opt = input(
+            'Choose an option:\n'
+            '1) Test algorithms in console.\n'
+            '2) Test algorithms in a visual environment.\n'
+        ).strip()
+        if opt == '1':
+            while True:
+                try:
+                    sample_size = int(input('Insert sample size: ').strip())
+                    
+                    if sample_size <= 2:
+                        print('\nPlease insert a value larger than 2.\n')
+                        continue
+
+                    test_all_algorithms(sample_size)
+                    return
+                except:
+                    print('\nPlease insert a valid integer for the sample size.')
+        
+        elif opt == '2':
+            start_visualizer()
+            return
+        else:
+            print('\nPlease choose an option between 1 and 2.\n')
+            continue 
+
 if __name__ == '__main__':
-    test_all_algorithms(2500)
+    main()
+        
+        
