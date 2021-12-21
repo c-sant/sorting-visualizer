@@ -6,6 +6,14 @@
 
 > An implementation of the most well-known sorting algorithms for the purpose of practice and personal improvement in Python programming.
 
+## Implemented Algorithms
+
+- [X] Bubble Sort
+- [X] Insertion Sort
+- [X] Selection Sort
+- [X] Merge Sort
+- [X] Quick Sort
+
 ## 💻 Requirements
 
 The following setup was used to make the source code on this repository:
