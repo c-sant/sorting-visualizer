@@ -1,7 +1,5 @@
 from tkinter import Canvas, Tk
-from tkinter.constants import TRUE
-from .render import render_array
-from time import sleep
+from ._render import render_array
 
 ##########
 # Colors #

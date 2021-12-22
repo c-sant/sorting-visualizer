@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import ttk, messagebox
-from .visual_algorithms import bubble_sort, insertion_sort, merge_sort, quick_sort, selection_sort
-from .render import render_array
+from ._visual_algorithms import bubble_sort, insertion_sort, merge_sort, quick_sort, selection_sort
+from ._render import render_array
 import random
 import ctypes
 
