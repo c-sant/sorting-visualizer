@@ -6,7 +6,7 @@
 
 > An implementation of the most well-known sorting algorithms for the purpose of practice and personal improvement in Python programming.
 
-## Implemented Algorithms
+## :scroll: Implemented Algorithms
 
 - [X] Bubble Sort
 - [X] Insertion Sort
