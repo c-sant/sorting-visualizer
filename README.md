@@ -1,4 +1,4 @@
-# Sorting with Python
+# Sorting Visualizer
 
 <div>
   <img src="https://media.giphy.com/media/zUrqdzJIfaicaqKLbQ/giphy.gif"/>
